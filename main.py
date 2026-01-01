@@ -48,3 +48,9 @@ def create_book(book: Book):
     }
     books.append(new_book)
     return new_book
+
+if __name__ == "__main__":
+    import os
+    import uvicorn
+    port = int(os.environ.get("PORT", 8000))
+    uvicorn.run("main:app", host="0.0.0.0", port=port)
