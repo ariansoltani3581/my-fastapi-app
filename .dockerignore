@@ -1,0 +1,29 @@
+# Virtual environment
+fastapi-env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Git
+.git/
+.gitignore
+
+# Temporary files
+*.tmp
+
+# Other unnecessary files
+README.md
+.env
